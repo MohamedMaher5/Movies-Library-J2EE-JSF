@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Delete Page</title>
+        
+    </h:head>
+    <h:body>
+       
+        <h:form id="delete">
+            <h1> Enter Movie Name To Delete </h1> <br/> 
+            Movie Name : 
+            <h:inputText value="#{deleteEmp.movieName}" ></h:inputText> <br/>
+            <h:commandButton value="Delete" action="#{deleteEmp.DeleteMovie}" />
+            
+            <h:messages infoStyle="color:green" errorStyle="color:red" />
+            <br/>
+            <br/>
+            <h:commandLink action="gotohomepage">Go to Home Page</h:commandLink>
+        </h:form>
+    </h:body>
+</html>
+

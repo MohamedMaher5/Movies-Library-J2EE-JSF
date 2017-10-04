@@ -1,0 +1,25 @@
+.title
+{
+    color: blue;
+}
+
+.table
+{
+    border: blue;
+    border-style: inset;
+}
+
+.header
+{
+    background: yellow;
+}
+
+.evenrow
+{
+    background: lightblue;
+}
+
+.oddrow
+{
+    background: pink;
+}
